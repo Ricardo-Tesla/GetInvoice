@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Set the base URL for the API
-  const BASE_URL = "http://localhost:8080/api";
+  const BASE_URL = "https://getinvoice.onrender.com";
   let currentUser = null;
   let currentReceiptsUsername = null;
 
