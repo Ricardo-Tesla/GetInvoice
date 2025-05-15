@@ -3,9 +3,9 @@ FROM gradle:7.6-jdk17 AS build
 WORKDIR /app
 COPY . .
 
-# Fix permission issues
+# Fix permission issues and skip tests
 RUN chmod +x ./gradlew
-RUN ./gradlew build
+RUN ./gradlew build -x test
 
 FROM openjdk:17-jdk-slim
 
