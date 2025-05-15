@@ -78,7 +78,8 @@ Build & Run the application:
 
 Access the application at http://localhost:8080
 
-You can access the frontend by running Live server / localhost:5500
+You can access the frontend by running (http://localhost:8080/index.html)
+)
 
 📜 API Endpoints
 ---
